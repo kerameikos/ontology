@@ -14,6 +14,13 @@
 		<rdfs:seeAlso rdf:resource="http://kerameikos.org/ontology"/>
 		<owl:versionInfo>0.1</owl:versionInfo>
 	</owl:Ontology>
+	<owl:Class rdf:about="http://kerameikos.org/ontology#ProductionPlace">
+		<rdfs:label xml:lang="en">Production Place</rdfs:label>
+		<rdfs:comment xml:lang="en">Stub for the description of Production Place, as a concept. To be differentiated from ecrm:E53_Place and geo:SpatialThing, which are physical locations.</rdfs:comment>
+		<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+		<rdfs:isDefinedBy rdf:resource="http://kerameikos.org/ontology"/>
+	</owl:Class>
 	<owl:Class rdf:about="http://kerameikos.org/ontology#Shape">
 		<rdfs:label xml:lang="en">Shape</rdfs:label>
 		<rdfs:comment xml:lang="en">Stub for the description of Shape</rdfs:comment>
